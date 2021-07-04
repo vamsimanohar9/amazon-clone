@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.1",
